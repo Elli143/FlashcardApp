@@ -1,0 +1,52 @@
+.breadcrumb {
+    background-color:lightgray;
+    color:darkslategrey;
+}
+
+.breadcrumb span {
+    padding: 0 0.5em;
+}
+
+button.create {
+    background-color:green;
+    color:white;
+}
+
+button.delete {
+    background-color:red;
+    color:white;
+    justify-content: right;
+}
+
+button.study {
+    background-color:blue;
+    color:white;
+}
+
+button {
+    background-color:darkslategray;
+    color:white;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.buttonRow {
+
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cardCount {
+    font-size: 14px;
+}
+
+.deckTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
