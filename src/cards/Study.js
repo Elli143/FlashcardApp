@@ -50,7 +50,7 @@ function Study() {
       } else if(cards) {
         return (
           <div>
-            <h3>Card {cardNumber + 1} of {cards.length} </h3>
+            <h3>Card {cardNumber + 1} of {cards.length}</h3>
             <StudyCard card={card} isLast={cardNumber + 1 === cards.length} setCardNumber={incrementCard} />
           </div>
         )
